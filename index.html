@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Sakib — Cinematic Portfolio</title>
+  <meta name="description" content="Cinematic 3D-style interactive portfolio experience" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+
+  <header class="topbar glass">
+    <div class="brand">MS//UNIVERSE</div>
+    <nav>
+      <a href="#origin">Origin</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#trust">Trust</a>
+      <a href="#future">Vision</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <p class="eyebrow reveal">ENTER MY WORLD</p>
+      <h1 class="title reveal">Md Sakib</h1>
+      <p class="subtitle reveal">I don’t build projects. I build experiences.</p>
+      <p class="roles reveal">Developer · Builder · Strategist · Creative Technologist · Problem Solver</p>
+      <a href="#projects" class="cta reveal">Launch Project Cinema</a>
+    </section>
+
+    <section id="origin" class="section panel reveal">
+      <h2>Chapter 1 — Origin Story</h2>
+      <div class="timeline">
+        <article>
+          <h3>Curiosity</h3>
+          <p>From digital marketing execution to product systems thinking.</p>
+        </article>
+        <article>
+          <h3>Obsession</h3>
+          <p>Built solo through 100+ iterations, learning by shipping under pressure.</p>
+        </article>
+        <article>
+          <h3>Breakthrough</h3>
+          <p>Turned gym-owner chaos into an operational app workflow.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section panel reveal">
+      <h2>Chapter 2 — Skill Galaxy</h2>
+      <div class="skill-galaxy">
+        <button class="planet" data-copy="Interactive UX, React fundamentals, motion systems">Frontend</button>
+        <button class="planet" data-copy="APIs, data flows, auth, integrations">Backend</button>
+        <button class="planet" data-copy="AI-assisted build pipelines and agentic workflows">AI</button>
+        <button class="planet" data-copy="No-code + automation for owner operations">Automation</button>
+        <button class="planet" data-copy="Product architecture, reliability, and scale mindset">Systems</button>
+        <button class="planet" data-copy="Visual communication, content design, premium narrative">Design</button>
+        <button class="planet" data-copy="Growth thinking, prioritization, business outcomes">Strategy</button>
+      </div>
+      <p id="skill-output" class="skill-output">Hover a planet to inspect mastery signal.</p>
+    </section>
+
+    <section id="projects" class="section panel reveal">
+      <h2>Chapter 3 — Project Cinema</h2>
+      <div class="cards">
+        <article class="card hero-card">
+          <span class="tier">Tier S · Hero</span>
+          <h3>Muscle Studio / Hello Owners</h3>
+          <ul>
+            <li><strong>Problem:</strong> Gym owners managing operations manually.</li>
+            <li><strong>Strategy:</strong> Build for speed + offline-first constraints.</li>
+            <li><strong>Build:</strong> Camera capture, reminders, owner workflow simplification.</li>
+            <li><strong>Impact:</strong> Positioning-ready case for SMB efficiency.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <span class="tier">Tier A · Authority</span>
+          <h3>Claude/GitHub Workflow Intelligence</h3>
+          <p>Operational playbook for tool leverage, faster decision cycles, and delivery acceleration.</p>
+        </article>
+
+        <article class="card">
+          <span class="tier">Tier A · Brand</span>
+          <h3>AI Workflow Positioning</h3>
+          <p>Narrative around AI-assisted design, editing, and build execution speed.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section panel reveal">
+      <h2>Chapter 4 — Experience Command Center</h2>
+      <div class="ops-grid">
+        <article><h3>Digital Marketing</h3><p>Audience growth, campaign systems, and performance optimization.</p></article>
+        <article><h3>Product Builder</h3><p>From concept to shipped workflow with tight iteration loops.</p></article>
+        <article><h3>Creative Ops</h3><p>Content pipelines blending strategy, design, and automation.</p></article>
+      </div>
+    </section>
+
+    <section id="trust" class="section panel reveal">
+      <h2>Chapter 5 — Trust Signals</h2>
+      <div class="metrics">
+        <div><strong>100+</strong><span>Build Iterations</span></div>
+        <div><strong>1 Week</strong><span>First App Sprint</span></div>
+        <div><strong>SMB Focus</strong><span>Real owner pain points</span></div>
+      </div>
+      <p class="tiny">Replace placeholders with audited production metrics before final launch.</p>
+    </section>
+
+    <section id="future" class="section panel reveal">
+      <h2>Chapter 6 — Future Vision</h2>
+      <p>I’m building an AI-native operating layer for small businesses: fewer manual tasks, faster execution, better decisions.</p>
+    </section>
+
+    <section id="contact" class="section panel reveal">
+      <h2>Final Chapter — Contact Portal</h2>
+      <p>You’ve seen the work. You’ve felt the vision. Now let’s build something unforgettable.</p>
+      <div class="actions">
+        <a class="cta" href="mailto:mdsaakib002@gmail.com?subject=Hire%20Me">Hire Me</a>
+        <a class="cta" href="mailto:mdsaakib002@gmail.com?subject=Book%20a%20Call">Book a Call</a>
+        <a class="cta" href="mailto:mdsaakib002@gmail.com?subject=Start%20a%20Project">Start a Project</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
