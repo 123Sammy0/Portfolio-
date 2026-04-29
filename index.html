@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MD SAKIB — Sci‑Fi Portfolio Universe</title>
+  <meta name="description" content="Dark sci‑fi cinematic portfolio with interactive character presence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="loader" aria-live="polite">
+    <p class="loader-label">BOOTING SAKIB COMMAND PROTOCOL</p>
+    <h1 id="loader-name"></h1>
+    <div class="loader-bar"><span></span></div>
+  </div>
+
+  <canvas id="scene"></canvas>
+
+  <header class="topbar glass">
+    <div class="brand">MS // NEXUS</div>
+    <button id="menuBtn" class="menu-btn">MENU</button>
+    <nav id="nav">
+      <a href="#origin">Origin</a><a href="#skills">Skill Galaxy</a><a href="#projects">Project Cinema</a>
+      <a href="#experience">Experience</a><a href="#trust">Trust</a><a href="#vision">Vision</a><a href="#contact">Portal</a>
+    </nav>
+  </header>
+
+  <aside class="character-rail glass">
+    <h3>Avatar Modes</h3>
+    <button class="expr-btn active" data-mode="neutral">Neutral</button>
+    <button class="expr-btn" data-mode="focus">Focus</button>
+    <button class="expr-btn" data-mode="curious">Curious</button>
+    <button class="expr-btn" data-mode="confident">Confident</button>
+    <p>Using your character sheet with auto background cutout.</p>
+  </aside>
+
+  <main>
+    <section class="hero section" id="arrival">
+      <p class="eyebrow reveal">THE ARRIVAL</p>
+      <h1 class="title reveal">MD SAKIB</h1>
+      <p class="subtitle reveal">I don’t just create content. I build systems that create momentum.</p>
+      <p class="roles reveal">Social Media Specialist · AI Builder · Creative Technologist · App Builder · Problem Solver</p>
+      <div class="actions reveal"><a class="magnetic cta" href="#projects">ENTER MY WORLD</a><a class="magnetic cta ghost" href="#contact">HIRE ME</a></div>
+      <p class="hero-note reveal">Dark sci‑fi stage + interactive character reacts to mouse and touch.</p>
+    </section>
+
+    <section id="origin" class="section panel reveal"><h2>Chapter 1 — Origin Story</h2><div class="timeline">
+      <article><span>PHASE 01</span><h3>Execution Roots</h3><p>Social media execution built my conversion instincts and speed discipline.</p></article>
+      <article><span>PHASE 02</span><h3>Systems Shift</h3><p>Moved from content posting to process design, automation, and growth loops.</p></article>
+      <article><span>PHASE 03</span><h3>Solo Product Builder</h3><p>Built solutions for real gym operators and shipped under constraints.</p></article>
+    </div></section>
+
+    <section id="skills" class="section panel reveal"><h2>Chapter 2 — Skill Galaxy</h2><div class="skill-galaxy">
+      <button class="planet" data-proof="Growth-led social systems and audience behavior insight.">Social Media</button>
+      <button class="planet" data-proof="AI-assisted ideation, production, and workflow acceleration.">AI Workflows</button>
+      <button class="planet" data-proof="Hook-to-conversion narrative systems.">Content Strategy</button>
+      <button class="planet" data-proof="HTML/Tailwind/JS + offline-first service-worker architecture.">Web Systems</button>
+      <button class="planet" data-proof="Flutter + Dart native Android lifecycle delivery.">Flutter/Dart</button>
+      <button class="planet" data-proof="Visual design direction for premium perception.">Design</button>
+      <button class="planet" data-proof="Business-first iteration loops tied to outcomes.">Growth Systems</button>
+      <button class="planet" data-proof="Problem framing and founder-minded decisions.">Product Thinking</button>
+    </div><p id="skillOutput" class="skill-output">Hover/tap a planet to inspect real-world proof.</p></section>
+
+    <section id="projects" class="section panel reveal"><h2>Chapter 3 — Hero Project Cinema</h2>
+      <div class="project-tabs"><button class="proj-tab active" data-target="helloOwners">HELLO OWNERS — WEBVIEW WEB APP</button><button class="proj-tab" data-target="muscleStudio">MUSCLE STUDIO — NATIVE ANDROID</button></div>
+      <article id="helloOwners" class="case visible"><h3>Hello Owners (Phone-built)</h3><ul>
+        <li><strong>The Problem:</strong> manual gym operations and billing friction.</li><li><strong>The Strategy:</strong> mobile-first + offline-first real-world reliability.</li><li><strong>The Build:</strong> HTML, Tailwind CSS, Vanilla JS, localStorage, service workers.</li><li><strong>The Impact:</strong> demonstrates execution intelligence and practical systems thinking.</li>
+      </ul></article>
+      <article id="muscleStudio" class="case"><h3>Muscle Studio (Laptop-built Native Android)</h3><ul>
+        <li><strong>The Problem:</strong> need for deeper native fitness workflow product.</li><li><strong>The Strategy:</strong> full native lifecycle for authority and scalability.</li><li><strong>The Build:</strong> Flutter + Dart + Android product architecture.</li><li><strong>The Impact:</strong> primary hero project for technical authority and trust.</li>
+      </ul></article>
+    </section>
+
+    <section id="experience" class="section panel reveal"><h2>Chapter 4 — Experience Command Center</h2><div class="ops-grid">
+      <article><h3>Watermelon Digital Marketing</h3><p>Campaign systems, audience operations, delivery under pressure.</p></article>
+      <article><h3>Creative + Technical Hybrid</h3><p>Content strategy, AI workflows, design, and product building in one stack.</p></article>
+      <article><h3>Solo Builder Discipline</h3><p>Fast iteration, clear priorities, and business-useful execution.</p></article>
+    </div></section>
+
+    <section id="trust" class="section panel reveal"><h2>Chapter 5 — Trust Signals</h2><div class="metrics"><div><strong>2</strong><span>Core Apps (Web + Native)</span></div><div><strong>Offline‑First</strong><span>Reliability mindset</span></div><div><strong>100+</strong><span>Iteration philosophy</span></div></div></section>
+    <section id="vision" class="section panel reveal"><h2>Chapter 6 — Future Vision</h2><p>I’m building AI-powered growth + operations systems where content, automation, and product work as one engine.</p></section>
+    <section id="contact" class="section panel reveal"><h2>Final Chapter — Contact Portal</h2><p>You’ve seen the work. You’ve felt the vision. Now let’s build something unforgettable.</p><div class="actions"><a class="magnetic cta" href="mailto:mdsaakib002@gmail.com?subject=Hire%20MD%20Sakib">Hire Me</a><a class="magnetic cta" href="mailto:mdsaakib002@gmail.com?subject=Book%20a%20Call">Book a Call</a><a class="magnetic cta" href="mailto:mdsaakib002@gmail.com?subject=Start%20a%20Project">Start a Project</a><a class="magnetic cta" href="mailto:mdsaakib002@gmail.com?subject=Let%27s%20Build%20the%20Future">Let’s Build the Future</a></div></section>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
