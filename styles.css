@@ -51,7 +51,7 @@ main { max-width: 1050px; margin: 0 auto; padding: 0 1rem 3rem; }
 .hero-card { border-color: rgba(102,214,255,.5); }
 .metrics div { text-align: center; border: 1px solid var(--line); border-radius: 14px; padding: 1rem; }
 .metrics strong { display: block; font-size: 1.6rem; }
-.actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.actions { display: flex; gap: 0.6rem; flex-wrap: wrap; 
 .tiny { color: #9aa6dd; font-size: 0.85rem; }
 .reveal { opacity: 0; transform: translateY(18px); transition: all .7s ease; }
 .reveal.visible { opacity: 1; transform: none; }
